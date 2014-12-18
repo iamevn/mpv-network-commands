@@ -3,6 +3,8 @@ mpv-network-commands
 
 Script to control mpv over the network. Whether that be from a local webpage or a mobile remote application or a cli application or even an irc bot.
 
+Currently in the earliest of planning stages and there isn't much use for it at the moment as things will be changing as I decide how I like things set up. This may end up being what I base a more thought-out daemon wrapper on as that would give me some more control over certain things that this sort of script might lack the means to do cleanly.
+
 testserver.lua goes in your mpv profile's script directory.
 You'll need LuaSocket for whatever version of lua mpv is configured for (5.1 on my machine).
 
@@ -24,12 +26,12 @@ Commands to support:
  - [x] FULLSCREEN/WINDOWED - set fullscreen/windowed
  - [x] TFULLSCREEN/TWINDOWED - toggle fullscreen
  - [x] QUIT
- - [ ] (probably others too)
+ - more as I figure things out
 
 TODO:
  - commands with args
  - reading settings like port number from config file
- - encryption of some sort
+ - some basic encryption between the client and server
  - sending data to client
 
 Reference: 
