@@ -7,24 +7,24 @@ testserver.lua goes in your mpv profile's script directory.
 You'll need LuaSocket for whatever version of lua mpv is configured for (5.1 on my machine).
 
 Commands to support: 
- - PLAY
- - PAUSE
- - TPAUSE/TPLAY - toggle pause
- - FORWARD/BACK N - jump forward/back 5/10/30/60/n seconds
- - FORWARDX/BACKX N - fastforward/rewind 1/4, 1/3, 1/2, 3/2, 2, 3, 4, n times as fast
- - STEP/STEPBACK - frame step
- - NEXTCHAP/PREVCHAP - jump chapter forward/back
- - NEXT/PREV - jump file forward/back (in playlist)
- - START/END - start/end
- - CYCLE A/V/S - cycle audio/subtitle/video tracks
- - SET A/V/S N - use N'th audio/sub/vid track
- - MUTE
- - VOLUME N - set volume
- - VOLUME UP/DOWN - increase/decrease volume
- - FULLSCREEN/WINDOWED - set fullscreen/windowed
- - TFULLSCREEN/TWINDOWED - toggle fullscreen
- - QUIT
- - (probably others too)
+ [x] PLAY
+ [x] PAUSE
+ [x] TPAUSE/TPLAY - toggle pause
+ [ ] FORWARD/BACK N - jump forward/back 5/10/30/60/n seconds
+ [ ] FORWARDX/BACKX N - fastforward/rewind 1/4, 1/3, 1/2, 3/2, 2, 3, 4, n times as fast
+ [x] STEP/STEPBACK - frame step
+ [ ] NEXTCHAP/PREVCHAP - jump chapter forward/back
+ [ ] NEXT/PREV - jump file forward/back (in playlist)
+ [ ] START/END - start/end
+ [x] CYCLE A/V/S - cycle audio/subtitle/video tracks
+ [ ] SET A/V/S N - use N'th audio/sub/vid track
+ [x] MUTE
+ [ ] VOLUME N - set volume
+ [x] VOLUME UP/DOWN - increase/decrease volume
+ [x] FULLSCREEN/WINDOWED - set fullscreen/windowed
+ [x] TFULLSCREEN/TWINDOWED - toggle fullscreen
+ [x] QUIT
+ [ ] (probably others too)
 
 TODO:
  - commands with args
